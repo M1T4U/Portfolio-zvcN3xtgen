@@ -6,7 +6,7 @@
     "module": "ESNext",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
-    "types": [], // Exclude all default type definitions including 'node'
+    "types": ["vite/client"], // Exclude all default type definitions except 'vite/client'
 
     /* Bundler mode */
     "moduleResolution": "bundler",
